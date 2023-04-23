@@ -73,6 +73,12 @@ class parseUserAgentStringClass {
 	public $deviceTypeMobile = "mobile";
 	public $deviceTypePC = "PC";
 	public $deviceTypeScript = "script";
+	
+	public $type = "";
+	public $windowsNTVersion = "";
+	public $windows = "";
+	public $android = "";
+	public $androidVersion = "";
 
 	function StringContains($haystack, $needle) {
 		if (stristr($haystack, $needle) === FALSE) return false;
